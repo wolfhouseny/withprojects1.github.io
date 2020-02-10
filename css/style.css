@@ -1,8 +1,7 @@
 @import 'reset.css';
 
 @font-face {
-src:url("Unica77LL-Regular.otf");
-src:url("Unica77LL-Bold.otf");
+font-family:Wolfhouse-Regular;
 src:url("Wolfhouse-Regular.woff");
 }
 
