@@ -1,0 +1,90 @@
+@import 'reset.css';
+
+@font-face {
+src:url("Unica77LL-Regular.otf");
+src:url("Unica77LL-Bold.otf");
+src:url("Wolfhouse-Regular.woff");
+}
+
+html {
+	height: 100%;
+    font-family: Wolfhouse-Regular;
+    font-size: 4vw;
+    background: #f7f7f7;
+}
+
+header{
+    padding-left: 40px;
+    padding-top: 40px;
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+/*    margin-top: 40px;*/
+ 
+
+}
+
+footer{
+    position: fixed;
+    display: block;
+    bottom: 0;
+    padding-left: 40px;
+    padding-bottom:40px;
+}
+
+a:link{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:visited{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/*  SECTIONS  */
+.section {
+	clear: both;
+	margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 0% 0 0% 0%;
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+
+/*  GRID OF FOUR  */
+.span_4_of_4 {
+	width: 100%;
+}
+.span_3_of_4 {
+	width: 74.12%;
+}
+.span_2_of_4 {
+	width: 48.25%;
+}
+.span_1_of_4 {
+	width: 22.37%;
+}
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+	.col {  margin: 1% 0 1% 0%; }
+	.span_1_of_4, .span_2_of_4, .span_3_of_4, .span_4_of_4 { width: 100%; }
+}
