@@ -9,9 +9,10 @@
 }
 
 @font-face {
-  font-family: 'Wolfhouse-Regular';
-  src:  url('Wolfhouse-Regular.otf')  format('opentype'),
-	     url(data:application/x-font-woff;charset=utf-8;base64,d09GRgABAAAAABCIAA8AAAAAGTgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABGRlRNAAAQbAAAABoA
+    @font-face { font-family: 'Wolfhouse-Regular'; 
+    src: url('/css/Wolfhouse-Regular.eot') format('embedded-opentype'); font-weight: normal; font-style: normal; } 
+src:  url(/css/'Wolfhouse-Regular.otf')  format('opentype'),
+url(data:application/x-font-woff;charset=utf-8;base64,d09GRgABAAAAABCIAA8AAAAAGTgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABGRlRNAAAQbAAAABoA
 AAAcezQ7DUdERUYAAA7QAAAAHwAAACAAcwAGR1BPUwAADxAAAAFcAAACYru00cRHU1VCAAAO8AAA
 ACAAAAAgRHZMdU9TLzIAAAHMAAAASgAAAGBoT2cPY21hcAAAAtAAAAClAAABYobyUF9nYXNwAAAO
 yAAAAAgAAAAI//8AA2dseWYAAAQAAAAI3gAADjDp8bcnaGVhZAAAAVgAAAAyAAAANhbpWi1oaGVh
@@ -88,6 +89,7 @@ i/Of10i/qK+kora1o13tq8IbHqhK5XU1dEzvTb6HNj101aeqkcY/HXrGcHjaY2BgYGQAgmOp20+B
 6FvpjgthNABODAb0AAA=) format('woff'), url('Wolfhouse-Regular.ttf')  format('truetype'), url('Wolfhouse-Regular.svg#Wolfhouse-Regular') format('svg');
   font-weight: normal;
   font-style: normal;
+    
 }
 
 
