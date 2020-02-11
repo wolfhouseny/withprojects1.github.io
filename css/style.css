@@ -1,24 +1,18 @@
 @import 'reset.css';
-
-
-
-
+@import
 
 @font-face {
-    font-family: ‘wolfhouseregular’;
-    src: url('wolfhouse-regular-webfont.woff2') format('woff2'),
-         url('wolfhouse-regular-webfont.woff') format('woff'),
-         url('Wolfhouse-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'wolfhouse';
+  src: url('wolfhouse-regular-webfont.woff2') format('woff2'),
+       url('wolfhouse-regular-webfont.woff') format('woff'),
+       url('Wolfhouse-Regular.ttf') format('truetype');
 }
-
 
 
 
 html {
 	height: 100%;
-    font-family: wolfhouseregular;
+    font-family: wolfhouse;
     font-size: 4vw;
     background: #f7f7f7;
 }
