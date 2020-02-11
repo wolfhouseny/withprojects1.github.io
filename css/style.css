@@ -2,9 +2,9 @@
 
 @font-face {
   font-family: 'wolfhouse';
-  src: url('wolfhouse-regular-webfont.woff2') format('woff2'),
-       url('wolfhouse-regular-webfont.woff') format('woff'),
-       url('Wolfhouse-Regular.ttf') format('truetype');
+  src: url('./wolfhouse-regular-webfont.woff2') format('woff2'),
+       url('./wolfhouse-regular-webfont.woff') format('woff'),
+       url('./Wolfhouse-Regular.ttf') format('truetype');
 }
 
 
