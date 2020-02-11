@@ -6,8 +6,9 @@
 
 @font-face {
     font-family: ‘wolfhouseregular’;
-    src: url(wolfhouse-regular-webfont.woff2),
-         url(wolfhouse-regular-webfont.woff);
+    src: url('wolfhouse-regular-webfont.woff2') format('woff2'),
+         url('wolfhouse-regular-webfont.woff') format('woff'),
+         url('Wolfhouse-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
