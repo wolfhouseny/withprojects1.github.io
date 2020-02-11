@@ -88,9 +88,18 @@ a:hover{
 }
 
 /*  GO FULL WIDTH BELOW 480 PIXELS */
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 600px) {
 	.col {  margin: 1% 0 1% 0%; }
 	.span_1_of_4, .span_2_of_4, .span_3_of_4, .span_4_of_4 { width: 100%; }
-    
+ 
+    html {
+    font-size: 6vw;
+}   
 
 }
+
+
+
+
+
+
