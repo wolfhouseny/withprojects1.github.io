@@ -8,11 +8,10 @@
 }
 
 
-
 html {
 	height: 100%;
     font-family: wolfhouse;
-    font-size: 4vw;
+    font-size: 20vw;
     background: #f7f7f7;
 }
 
@@ -20,14 +19,21 @@ header{
     padding-left: 40px;
     padding-top: 40px;
     z-index: 100;
-    position: fixed;
     width: 100%;
 /*    margin-top: 40px;*/
  
-
 }
 
+
+
+p{
+    margin-top: -20px;
+    font-family: arial;
+    font-size: 3vw;
+}
 footer{
+    font-size: 3vw;
+    font-family: arial;
     position: fixed;
     display: block;
     bottom: 0;
@@ -93,9 +99,34 @@ a:hover{
 	.span_1_of_4, .span_2_of_4, .span_3_of_4, .span_4_of_4 { width: 100%; }
  
     html {
-    font-size: 6vw;
+    font-size: 17.5vw;
 }   
 
+    header{
+    padding-left: 20px;
+    padding-top: 20px;
+    z-index: 100;
+    width: 100%;
+/*    margin-top: 40px;*/
+ 
+}
+    
+    p{
+    margin-top: 0px;
+    font-family: arial;
+    font-size: 4vw;
+}
+footer{
+    font-size: 4vw;
+    font-family: arial;
+    position: fixed;
+    display: block;
+    bottom: 0;
+    padding-left: 30px;
+    padding-bottom:30px;
+}
+    
+    
 }
 
 
