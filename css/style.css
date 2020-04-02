@@ -1,59 +1,3 @@
-/* Dropdown Button */
-.dropbtn {
-  background-color: transparent;
-  color: black;
-  padding: 0;
-  font-size: 6vw;
-  border: none;
-}
-
-.dropbtn:hover{
-    cursor: pointer;
-    text-decoration: underline;
-}
-
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-  position: relative;
-  display: inline-block;
-    
-}
-
-.mobileonly{
-    display: block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f7f7f7;
-    width: 100vw;
-  z-index: 1;
-    margin-left: -5vw;
-    padding-bottom: 15px;
-    padding-top: 15px;
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 0;
-  text-decoration: none;
-  display: block;
-    margin-left: 5vw;
-}
-
-
-
-.dropdown-content a:hover{
-    cursor: pointer;
-    text-decoration: underline;
-}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block;}
-
-
-
 @import 'reset.css';
 
 /*
@@ -63,6 +7,70 @@ src:url("Unica77LL-Bold.otf");
 src:url("wolfhouse-regular-webfont.woff");
 }
 */
+
+
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: transparent;
+  color: black;
+  padding: 0;
+    margin: 0;
+  font-size: 6vw;
+  border: none;
+  cursor: pointer;
+
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+  cursor: pointer;
+    text-decoration: underline;
+      outline: none;
+  outline-offset: -2px;
+}
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f7f7f7;
+  min-width: 160px;
+  z-index: 1;
+    margin-left: -3vw;
+    width: 103vw;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 0;
+  text-decoration: none;
+  display: block;
+    margin-left:3vw;
+}
+
+/* Change color of dropdown links on hover */
+/*.dropdown-content a:hover {background-color: #ddd}*/
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+.hiddenmenudesktop{
+    display: block;
+}
+
+
+
 
 <link rel="stylesheet"href="https://use.typekit.net/fxt6lwh.css" > font-family: neue-haas-unica,
 sans-serif;
@@ -140,7 +148,7 @@ span{
     width: 100vw;
     background: #f7f7f7;
     margin-left: 3vw;
-    margin-bottom: 3vw;
+/*    margin-bottom: 3vw;*/
     margin-right: 3vw;
     margin-top: 3vw;
 }
@@ -315,49 +323,20 @@ a:hover {
 
 @media only screen and (min-width: 1024px) {
 
-/* Dropdown Button */
+    
 .dropbtn {
   background-color: transparent;
   color: black;
   padding: 0;
+    margin: 0;
   font-size: 16px;
   border: none;
+  cursor: pointer;
+
 }
-
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-  position: relative;
-  display: inline-block;
-    
-}
-
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f7f7f7;
-    width: 104vw;
-  z-index: 1;
-    margin-left: -4vw;
-    padding-bottom: 15px;
-    padding-top: 15px;
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 0;
-  text-decoration: none;
-  display: block;
-    margin-left: 4vw;
-}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block;}
-
     
     
-    
-.mobileonly{
+.hiddenmenudesktop{
     display: none;
 }
     
