@@ -17,6 +17,7 @@ src:url("wolfhouse-regular-webfont.woff");
   padding: 0;
     margin: 0;
   font-size: 6vw;
+    margin-bottom: 15px;
   border: none;
   cursor: pointer;
 
@@ -47,7 +48,7 @@ src:url("wolfhouse-regular-webfont.woff");
     margin-left: -3vw;
     width: 103vw;
     padding-top: 15px;
-    padding-bottom: 15px;
+    padding-bottom: 50px;
 }
 
 /* Links inside the dropdown */
