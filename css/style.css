@@ -323,6 +323,12 @@ a:hover {
 /*  Desktop Above 1024px */
 
 @media only screen and (min-width: 1024px) {
+.dropdown-content {
+
+    padding-bottom: 15px;
+}
+
+    
 
     
 .dropbtn {
@@ -330,6 +336,7 @@ a:hover {
   color: black;
   padding: 0;
     margin: 0;
+    
   font-size: 16px;
   border: none;
   cursor: pointer;
