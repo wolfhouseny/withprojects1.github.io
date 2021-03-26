@@ -252,6 +252,7 @@ a:hover {
 .caption {
     font-size: 16px;
     line-height: 1.2;
+    margin-left: 3vw;
 /*
     margin-top: 0vh;
     margin-bottom: 3vh;
@@ -394,6 +395,7 @@ a:hover {
     .caption {
         font-size: 16px;
         line-height: 1.2;
+        margin-left: 0vw;
 /*        margin-top: 1vh;*/
     }
 
